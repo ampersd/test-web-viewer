@@ -1,1 +1,3 @@
 .vs
+test-web-viewer/img/*
+!test-web-viewer/img/README.md
