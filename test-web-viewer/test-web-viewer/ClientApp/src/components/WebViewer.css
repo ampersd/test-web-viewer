@@ -1,0 +1,26 @@
+#sidebar {
+    background-color: brown;
+    width: 100%;
+}
+
+#top {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+#bottom {
+    background-color: gold;
+    width: 100%;
+}
+
+.Resizer {
+    padding: 2px;
+}
+
+.Resizer.horizontal {
+    cursor: ns-resize;
+}
+
+.Resizer.vertical {
+    cursor: ew-resize;
+}
