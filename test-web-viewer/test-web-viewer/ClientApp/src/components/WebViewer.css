@@ -24,3 +24,22 @@
 .Resizer.vertical {
     cursor: ew-resize;
 }
+
+.m-tree {
+    color: white;
+    overflow: scroll;
+}
+
+.m-node {
+    height: auto;
+}
+
+.folderName {
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.folderName:hover {
+    background-color: rgba(255, 255, 0, 0.5);
+}
