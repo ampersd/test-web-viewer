@@ -1,0 +1,24 @@
+﻿.rc-tree li .rc-tree-node-content-wrapper:hover {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.rc-tree li span.rc-tree-switcher {
+    background-image: none;
+}
+
+
+.node {
+    .rc-tree-node-content-wrapper:not(.rc-tree-node-content-wrapper-normal) {
+        font-weight: bold;
+    }
+}
+
+.rc-tree li {
+    padding-left: 10px;
+}
+
+.rc-tree {
+    flex: 1;
+    text-align: left;
+    overflow: auto;
+}
