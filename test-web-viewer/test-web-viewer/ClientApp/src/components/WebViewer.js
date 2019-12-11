@@ -38,7 +38,9 @@ export class WebViewer extends Component {
 
     renderNode = node => {
         return (
-            <span className="folderName">
+            <span className="folderName"
+                style={(node.children && node.children.length > 0) ? { fontWeight: 'bold' } : { fontWeight: 'normal' }}
+            >
                 {node.module}
             </span>
         );
